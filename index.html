@@ -27,15 +27,15 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
+            data-bs-target="#collapsable-menu-items"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
+          ><!--data-bs-target important to target the navbar button's menu items-->
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="collapsable-menu-items">
+            <ul id="nav-list" class="navbar-nav ms-auto"> <!--ms-auto: margin start auto to shift menu items to the left-->
               <li class="nav-item">
                 <a class="nav-link" href="#">Chicken</a>
               </li>
